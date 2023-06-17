@@ -1,0 +1,16 @@
+[package]
+name = "libdsp-sys"
+version = "0.1.0"
+edition = "2021"
+links = "libdsp"
+build = "build.rs"
+license = "MIT"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cc = { version = "1.0", features = ["parallel"] }
+pkg-config = "0.3"
+glob = "0.3"

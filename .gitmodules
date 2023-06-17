@@ -1,0 +1,3 @@
+[submodule "libdsp"]
+	path = libdsp
+	url = https://github.com/abaga129/lib_dsp
